@@ -3,11 +3,11 @@
 
 
 ## **Resumen**
-El objetivo principal de este proyecto fue realizar un análisis detallado de los productos de 5 tiendas de indumentaria, utilizando técnicas de web scraping para recolectar los datos, transformarlos y analizarlos en Power BI. El análisis permitió obtener información clave sobre el inventario de productos, precios, tendencias y comparación entre las tiendas.
+El objetivo principal de este proyecto fue realizar un análisis detallado de los productos de  tiendas de indumentaria, utilizando técnicas de web scraping para recolectar los datos, transformarlos y analizarlos en Power BI. El análisis permitió obtener información clave sobre el inventario de productos, precios, tendencias y comparación entre las tiendas.
 
 ## **Abstract**
 
-The main objective of this project was to conduct a detailed analysis of the products from 5 clothing stores, using web scraping techniques to collect the data, transform it, and analyze it in Power BI. The analysis provided key insights into product inventory, pricing, trends, and comparisons between the stores.
+The main objective of this project was to conduct a detailed analysis of the products from 4 clothing stores, using web scraping techniques to collect the data, transform it, and analyze it in Power BI. The analysis provided key insights into product inventory, pricing, trends, and comparisons between the stores.
 ## **Tecnologías Utilizadas**
 
 - **Python**: Lenguaje de programación principal para el proyecto.
@@ -19,7 +19,7 @@ The main objective of this project was to conduct a detailed analysis of the pro
 - **DevTools del Navegador**: Herramientas para analizar el tráfico de red del sitio web objetivo.
 
 ## **Desarrollo**
-El proyecto comenzó con la selección de las Tiendas. Se seleccionaron 5 tiendas de indumentaria online, dos de ellas relevantes en el mercado nacional e internacion (Montagne y Adidas), y las otras tres restantes constituidas por PyMEs de alcance nacional y regional (Colmo, Dala, KabraKuervo) . Estas tiendas fueron elegidas por su popularidad y la variedad de productos que ofrecen. Los sitios web seleccionados incluyen tanto grandes cadenas de ropa como tiendas boutique.
+El proyecto comenzó con la selección de las Tiendas. Se seleccionaron 4 tiendas de indumentaria online, dos de ellas relevantes en el mercado nacional e internacion (Montagne y Adidas), y las otras tres restantes constituidas por PyMEs de alcance nacional y regional (Colmo, Dala, KabraKuervo) . Estas tiendas fueron elegidas por su popularidad y la variedad de productos que ofrecen. Los sitios web seleccionados incluyen tanto grandes cadenas de ropa como tiendas boutique.
 
 Se utilizó Python junto con la libreria BeautifulSoup para realizar el web scraping. Esto permitió acceder a las páginas web de cada tienda y extraer información relevante como:
 
@@ -74,6 +74,8 @@ Durante el desarrollo del proyecto ocurrieron varios inconvenientes:
 - **Paginas en iteracion**: La tienda de Mountagne no tiene, como a diferencia de las otras, una forma de visualizar **TODOS** los productos, si no que los divide en varias categorias y dentro de cada categoria hay más categorias. Por ello se requirio automatizar el proceso de entrar en cada categoria y subcategoria.
 
 - **Modularizacion y abstraccion**: Al ser varias tiendas y no una sola (como en un proyecto anterior) se requiere abstraer un los datos, las funciones y los elementos, de manera de tener un codigo limpio, legible y reutilizable (mucho muy importante) ya que trae muchas ventajas como: Escalabilidad, facilitacion de debug y testing, codigo ordenado, uso de buenas practicas de programación.
+
+-**Power BI**: Al ser una herramienta que nunca habia usado, se me presentaron nuevos desafios para entender el entorno, asi como DAX (Data Analysis Expressions), el lenguaje que se utiliza para implementar nuevas medidas y analisis.
 
 ## **Resultados**
 Los resultados arrojaron que:
